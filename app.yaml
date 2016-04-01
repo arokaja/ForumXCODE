@@ -1,0 +1,23 @@
+application: forumxcode
+version: 2
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.html
+
+- url: /css
+  static_dir: css
+
+- url: /fonts
+  static_dir: fonts
+  
+- url: /forum
+  static_dir: forum
+  
+- url: /images
+  static_dir: images
+  
+- url: /js
+  static_dir: js
